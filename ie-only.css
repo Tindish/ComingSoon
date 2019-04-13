@@ -1,0 +1,17 @@
+
+a {color: rgb(216,211,186);}
+body, html {color: rgb(216,211,186);}
+.bgimg {background-image: url('https://source.unsplash.com/featured/?food');}
+.bgcover {background-color: rgba(0,0,0,.8);}
+img {width: 240px;}
+.button {border: 2px solid rgb(216,211,186);}
+.button:hover {
+  background-color: rgb(216,211,186);
+  color: rgb(128,119,50);
+}
+.footer {line-height: 30px;}
+@media only screen and (max-width: 768px) {
+  img {width: 140px;}
+  .buttons {max-width:800px;}
+}
+@media only screen and (max-height: 600px) {img {width:140px;}}
